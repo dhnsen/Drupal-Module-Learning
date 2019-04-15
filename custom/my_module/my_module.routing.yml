@@ -1,0 +1,6 @@
+my_method:
+  path: /my_module/my_method
+  defaults:
+    _controller: Drupal\my_module\Controller\ModuleController::myMethod
+  requirements:
+    _permission: 'access content'
